@@ -5,7 +5,7 @@ import streamlit as st
 
 # Load API key
 load_dotenv()
-client = Groq(api_key=os.getenv("API key"))
+client = Groq(api_key=os.getenv("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"))
 
 # Function to summarize text
 def summarize_text(text, mode):
